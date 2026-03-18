@@ -22,6 +22,7 @@ import AppFile from './AppFile.jsx'
 import { Children } from 'react'
 import Login from './BrowserRouter/Login.jsx'
 import Linking from './BrowserRouter/Linking.jsx'
+import App1 from './BrowserRouter/App1.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -48,6 +49,7 @@ createRoot(document.getElementById('root')).render(
     {/* <Children /> */}
     {/* <AppFile/> */}
     {/* <Login /> */}
-    <Linking/>
+    {/* <Linking/> */}
+    <App1 />
   </StrictMode>,
 )

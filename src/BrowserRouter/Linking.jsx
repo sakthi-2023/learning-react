@@ -21,7 +21,7 @@ function Linking() {
 
             </LogContext.Provider>
         </div>
-    )
+    );
 
 }
 export default Linking;
