@@ -4,8 +4,10 @@ import { useNavigate } from "react-router-dom";
 
 
 function Dashboard() {
+    
     const Navigate = useNavigate();
     const { username, setUsername } = useContext(LogContext);
+
     function handleholder() {
         setUsername("");
 

@@ -4,6 +4,7 @@ import { DataStore } from "./Store";
 
 
 function DetailsPage() {
+    
     const navigate = useNavigate();
     const { data, setData } = useContext(DataStore);
 
