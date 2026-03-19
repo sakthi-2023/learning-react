@@ -24,6 +24,7 @@ import Login from './BrowserRouter/Login.jsx'
 import Linking from './BrowserRouter/Linking.jsx'
 import App1 from './BrowserRouter/App1.jsx'
 import Store from './BrowserRouter/Store.jsx'
+import Cart from './BrowserRouter/CartStore.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -52,6 +53,7 @@ createRoot(document.getElementById('root')).render(
     {/* <Login /> */}
     {/* <Linking/> */}
     {/* <App1 /> */}
-    <Store/>
+    {/* <Store/> */}
+    <Cart/>
   </StrictMode>,
 )
