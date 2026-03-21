@@ -6,6 +6,8 @@ function Input() {
 
     useEffect(() => {
         inputRef.current = inputRef.current + 1;
+        console.log("It Working");
+        
     });
 
     return (
