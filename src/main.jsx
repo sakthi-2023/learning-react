@@ -26,6 +26,7 @@ import App1 from './BrowserRouter/App1.jsx'
 import Store from './BrowserRouter/Store.jsx'
 import Cart from './BrowserRouter/CartStore.jsx'
 import Input from './UseRef/InputRef.jsx'
+import HomeIntro from './BrowserRouter/HomeIntro.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -56,6 +57,7 @@ createRoot(document.getElementById('root')).render(
     {/* <App1 /> */}
     {/* <Store/> */}
     {/* <Cart/> */}
-    <Input/>
+    {/* <Input/> */}
+    <HomeIntro/>
   </StrictMode>,
 )
