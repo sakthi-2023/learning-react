@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function AboutMe() {
-    
+
     const [about, setAbout] = useState(false);
 
     return (
@@ -18,3 +18,4 @@ function AboutMe() {
     );
 
 }
+export default AboutMe;
