@@ -25,9 +25,9 @@ import Linking from './BrowserRouter/Linking.jsx'
 import App1 from './BrowserRouter/App1.jsx'
 import Store from './BrowserRouter/Store.jsx'
 import Cart from './BrowserRouter/CartStore.jsx'
-import Input from './UseRef/InputRef.jsx'
-import HomeIntro from './BrowserRouter/HomeIntro.jsx'
-import Portfolio from './BrowserRouter/Portfolio.jsx'
+// import Input from './UseRef/InputRef.jsx'
+import Task2 from './UseRef/inPutRef.jsx'
+
 
 
 createRoot(document.getElementById('root')).render(
@@ -58,8 +58,7 @@ createRoot(document.getElementById('root')).render(
     {/* <App1 /> */}
     {/* <Store/> */}
     {/* <Cart/> */}
-    <Input/>
-    {/* <HomeIntro/> */}
-    {/* <Portfolio/> */}
+    {/* <Input/> */}
+    < Task2 />
   </StrictMode>,
 )
