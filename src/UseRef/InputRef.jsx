@@ -1,20 +1,19 @@
-import { useEffect, useRef, useState } from "react";
+import { useRef } from "react";
 
 function Input() {
-    const [inputValue, setInputValue] = useState("");
-    const inputRef = useRef(0);
+    const inputRef = useRef(null);
 
-    useEffect(() => {
-        inputRef.current = inputRef.current + 1;
-        console.log("It Working");
-        
-    });
+
+    const handleClick = () => {
+        inputRef.current.focus();
+
+    };
 
     return (
         <div>
-            <input value={inputValue} type="text" onChange={(e) => setInputValue(e.target.value)} />
-            <h2>Render Count: {inputRef.current}</h2>
+            <input ref={inputRef} type="text" placeholder="Enter text" />
+            <button onClick={handleClick}>Focus Input</button>
         </div>
     );
-}
+};
 export default Input;

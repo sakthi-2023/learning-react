@@ -58,8 +58,8 @@ createRoot(document.getElementById('root')).render(
     {/* <App1 /> */}
     {/* <Store/> */}
     {/* <Cart/> */}
-    {/* <Input/> */}
+    <Input/>
     {/* <HomeIntro/> */}
-    <Portfolio/>
+    {/* <Portfolio/> */}
   </StrictMode>,
 )
