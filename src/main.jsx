@@ -29,6 +29,8 @@ import Cart from './BrowserRouter/CartStore.jsx'
 import Task2 from './UseRef/inPut.jsx'
 import Render from './UseRef/Render.jsx'
 import StorePre from './UseRef/StorePrevious.jsx'
+import App3 from './UseRef/App.jsx'
+
 
 
 
@@ -63,6 +65,7 @@ createRoot(document.getElementById('root')).render(
     {/* <Input/> */}
     {/* < Task2 /> */}
     {/* <Render/> */}
-    <StorePre/>
+    {/* <StorePre/> */}
+    <App3/>
   </StrictMode>,
 )
