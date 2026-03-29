@@ -30,6 +30,7 @@ import Task2 from './UseRef/inPut.jsx'
 import Render from './UseRef/Render.jsx'
 import StorePre from './UseRef/StorePrevious.jsx'
 import App3 from './UseRef/App.jsx'
+import Quiz from './Quiz/Quiz.jsx'
 
 
 
@@ -66,6 +67,7 @@ createRoot(document.getElementById('root')).render(
     {/* < Task2 /> */}
     {/* <Render/> */}
     {/* <StorePre/> */}
-    <App3/>
+    {/* <App3/> */}
+    <Quiz/>
   </StrictMode>,
 )

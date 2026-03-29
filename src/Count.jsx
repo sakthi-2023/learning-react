@@ -11,6 +11,7 @@ function Count() {
         const interval = setInterval(() => {
             console.log("working");
         }, 1000);
+        
         return (() => {
             clearInterval(interval)
         })
