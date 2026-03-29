@@ -40,17 +40,34 @@ function Question() {
             {QuizData[index].options.map((opt, i) => (
                 <button
                     key={i}
-                    onClick={() => setSelected(opt)}>{opt}
+                    onClick={() => setSelected(opt)}
+                    style={{
+
+                        margin: "10px auto",
+                        padding: "20px",
+                        marginLeft:"10px",
+                        background: selected === opt ? "#4CAF50" : "#eee",
+                    }}>{opt}
                 </button>
             ))}
 
-            <button onClick={handlePrevious} disabled={index === 0}>
+            <button onClick={handlePrevious} disabled={index === 0}
+                style={{
+                    margin: "10px auto",
+                    padding: "20px",
+                    marginLeft:"10px",
+                }}>
                 Previous
             </button>
 
             <button
                 onClick={handleNext}
-                disabled={!selected} >
+                disabled={!selected} 
+                style={{
+                    margin: "10px auto",
+                    padding: "20px",
+                    marginLeft:"10px",
+                }} >
                 {index === QuizData.length - 1 ? "Finish" : "Next"}
             </button>
         </div>
